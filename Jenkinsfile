@@ -7,7 +7,7 @@ pipeline {
     stage('Build') {
       steps {
         sh './gradlew build'
-        sh 'docker build -t gameon-auth -f auth-wlpcfg/Dockerfile .'
+        sh 'docker build -t gameontext/gameon-auth auth-wlpcfg'
       }
     }
   }
