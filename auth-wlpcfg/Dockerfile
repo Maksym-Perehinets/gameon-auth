@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8-openj9:ubi
+FROM adoptopenjdk/openjdk8-openj9:latest
 
 ENV ETCD_VERSION 2.2.2
 
